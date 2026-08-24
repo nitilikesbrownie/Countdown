@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>30th August Countdown</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Countdown to 30th August 🎉</h1>
+
+        <p class="subtitle">
+            Something special is waiting...
+        </p>
+
+        <div class="countdown">
+
+            <div class="box">
+                <span id="days">00</span>
+                <p>Days</p>
+            </div>
+
+            <div class="box">
+                <span id="hours">00</span>
+                <p>Hours</p>
+            </div>
+
+            <div class="box">
+                <span id="minutes">00</span>
+                <p>Minutes</p>
+            </div>
+
+            <div class="box">
+                <span id="seconds">00</span>
+                <p>Seconds</p>
+            </div>
+
+        </div>
+
+
+        <!-- Proceed button area -->
+
+        <div class="button-wrapper">
+
+            <button
+                id="proceedButton"
+                onclick="proceed()"
+                disabled>
+
+                <span class="button-icon">→</span>
+
+                <span>Proceed</span>
+
+            </button>
+
+
+            <!-- Hover message -->
+
+            <div id="hoverMessage" class="tooltip">
+
+                <span class="tooltip-icon">🔒</span>
+
+                <span>
+                    It isn't 30th August yet!
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
